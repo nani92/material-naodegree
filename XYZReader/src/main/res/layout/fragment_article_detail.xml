@@ -14,10 +14,12 @@
         android:adjustViewBounds="true"
         android:cropToPadding="false"
         android:scaleType="centerCrop"
+        android:foreground="@drawable/gradient"
         app:layout_constraintBottom_toTopOf="@id/imageGuideline"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" tools:src="@mipmap/ic_launcher"/>
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@mipmap/ic_launcher"/>
 
     <TextView
         android:id="@+id/article_title"
@@ -39,11 +41,11 @@
         style="?android:attr/textAppearanceSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="@dimen/detail_inner_horiz_margin"
-        android:textColor="#fff"
         android:layout_marginBottom="@dimen/base_margin"
+        android:layout_marginRight="@dimen/detail_inner_horiz_margin"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="@id/photo"
-    app:layout_constraintLeft_toLeftOf="@id/article_title"/>
+        app:layout_constraintLeft_toLeftOf="@id/article_title"/>
 
     <TextView
         android:id="@+id/article_body"
