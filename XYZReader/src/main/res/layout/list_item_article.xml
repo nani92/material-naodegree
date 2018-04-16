@@ -59,6 +59,4 @@
             app:layout_constraintGuide_percent="0.25"/>
 
     </android.support.constraint.ConstraintLayout>
-
-
 </android.support.v7.widget.CardView>
